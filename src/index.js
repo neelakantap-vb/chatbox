@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+var data = [
+  {message : 'Hi user' , createdAt : "2021-09-14T13:23:02.298Z", sender : 'agent', _id : 1 },
+  {message : 'How are you doing today' , createdAt : "2021-09-14T13:23:02.298Z", sender : 'user', _id : 2 },
+  {message : 'I am good, how about you' , createdAt : "2021-09-14T13:23:02.298Z", sender : 'agent', _id : 3 },
+  {message : 'I am good, thanks for asking' , createdAt : "2021-09-14T13:23:02.298Z", sender : 'user', _id : 4 },
+  {message : 'How can I help you today ?' , createdAt : "2021-09-14T13:23:02.298Z", sender : 'agent', _id : 5 },
+];
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App messages={data} />,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

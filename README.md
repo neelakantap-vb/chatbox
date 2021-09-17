@@ -1,3 +1,8 @@
+# chatbox
+This is a responsive chatbox platform developed using HTML, CSS, JavaScript, Bootstrap, React.  
+As for assignment 4 VB.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
